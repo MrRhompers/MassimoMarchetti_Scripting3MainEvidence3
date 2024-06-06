@@ -1,38 +1,38 @@
 [
     {
-        "image": "Assets/Bats.png",
+        "image": "../Assets/Bats.png",
         "name": "Bat"
     },
     {
-        "image": "Assets/Cat.png",
+        "image": "../Assets/Cat.png",
         "name": "Cat"
     },
     {
-        "image": "Assets/Cow.png",
+        "image": "../Assets/Cow.png",
         "name": "Cow"
     },
     {
-        "image":"Assets/Crow.png",
+        "image":"../Assets/Crow.png",
         "name": "Crow"
     },
     {
-        "image": "Assets/Dog.png",
+        "image": "../Assets/Dog.png",
         "name": "Dog"
     },
     {
-        "image": "Assets/Fish.png",
+        "image": "../Assets/Fish.png",
         "name": "Fish"
     },
     {
-        "image":"Assets/Frog.png",
+        "image":"../Assets/Frog.png",
         "name": "Frog"
     },
     {
-        "image": "Assets/Panda.png",
+        "image": "../Assets/Panda.png",
         "name": "Panda"
     },
     {
-        "image": "Assets/Snake.png",
+        "image": "../Assets/Snake.png",
         "name": "Snake"
     }
 ]

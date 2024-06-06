@@ -8,7 +8,7 @@ let moves = 0;
 //it will take the collection of how many moves the person takes
 document.querySelector(".moves").textContent = moves;
 //fetching the data from the file stored for the cards designs
-fetch("JS/cards.json")
+fetch("../JS/cards.json")
   .then((res) => res.json())
   .then((data) => {
     cards = [...data, ...data];

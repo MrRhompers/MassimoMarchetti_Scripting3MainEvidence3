@@ -1,0 +1,512 @@
+/* =============================================================================
+   HTML5 CSS Reset Minified - Eric Meyer
+   ========================================================================== */
+
+   html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+   body{line-height:1}
+   article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+   nav ul{list-style:none}
+   blockquote,q{quotes:none}
+   blockquote:before,blockquote:after,q:before,q:after{content:none}
+   a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent;text-decoration:none}
+   mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
+   del{text-decoration:line-through}
+   abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
+   table{border-collapse:collapse;border-spacing:0}
+   hr{display:block;height:1px;border:0;border-top:1px solid #ff0000;margin:1em 0;padding:0}
+   input,select{vertical-align:middle}
+   li{list-style:none}
+   
+   
+   /* =============================================================================
+      My CSS
+      ========================================================================== */
+   
+   /* ---- base ---- */
+   
+ 
+   
+   html{
+     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+   }
+   
+   body{
+     font:normal 75% Arial, Helvetica, sans-serif;
+   }
+   
+   canvas{
+     display:block;
+     vertical-align:bottom;
+   }
+   
+   
+   /* ---- stats.js ---- */
+   
+   .count-particles{
+     background: #000000;
+     position: absolute;
+     top: 48px;
+     left: 0;
+     width: 80px;
+     color: #ff0000;
+     font-size: .8em;
+     text-align: left;
+     text-indent: 4px;
+     line-height: 14px;
+     padding-bottom: 2px;
+     font-family: Helvetica, Arial, sans-serif;
+     font-weight: bold;
+   }
+   
+   .js-count-particles{
+     font-size: 1.1em;
+   }
+   
+   #stats,
+   .count-particles{
+     -webkit-user-select: none;
+     margin-top: 5px;
+     margin-left: 5px;
+   }
+   
+   #stats{
+     border-radius: 3px 3px 0 0;
+     overflow: hidden;
+   }
+   
+   .count-particles{
+     border-radius: 0 0 3px 3px;
+   }
+   
+   
+   /* ---- particles.js container ---- */
+   
+   #particles-js{
+     width: 100%;
+     height: 100%;
+     background-color: #000000;
+     background-image: url('');
+     background-size: cover;
+     background-position: 50% 50%;
+     background-repeat: no-repeat;
+   }
+   /*making it that the background will be black by default for the sites*/
+   body
+   {
+    background-color: black;
+   }
+   /*Index html work is here*/
+   /*sizing and position for the text with font type*/
+   #Welcome
+   {
+    font-family: "Jersey 15", sans-serif;
+    font-size: 60px;
+    position:relative;
+    left: 450px;
+    top: 100px;
+    z-index: 2;
+    color: white;
+   }
+   /*sizing and position for the text with font type*/
+   #WelcomeInfo
+   {
+    font-family: "Jersey 15", sans-serif;
+    font-size: 20px;
+      position:absolute;
+      left: 500px;
+      top: 290px;
+      z-index: 2;
+      width: 500px;
+      color: white;
+   }
+   /*sizing and position for the text with font type*/
+   #Heyyou
+   {
+    font-family: "Jersey 15", sans-serif;
+    font-size: 10px;
+    position:absolute;
+    left: 10px;
+    top: 100px;
+    z-index: 2;
+    color: white;
+   }
+   /*sizing and position for the text with font type*/
+   #ToPortfolio
+ {
+  font-family: "Jersey 15", sans-serif;
+    position: absolute;
+    top: 450px;
+    left: 700px;
+    font-size: 40px;
+    background-color: gray;
+    color: white;
+    align-content: center;
+    border-radius: 15%;
+ }
+ /*making the one font colour red in the index the word love*/
+ #makeRed
+ {
+  color: #ff0000;
+ }
+
+
+/*About html work is here*/
+/*sizing and position for the text with font type*/
+#Heyyou5
+  {
+   font-family: "Jersey 15", sans-serif;
+   font-size: 10px;
+   position:absolute;
+   left: 10px;
+   top: 100px;
+   z-index: 2;
+   color: white;
+  }
+/*sizing and position for the text with font type*/
+#Information
+{
+ font-family: "Jersey 15", sans-serif;
+  position: absolute;
+  color: azure;
+  top: 150px;
+  left: 450px;
+  font-size: 65px; 
+}
+/*sizing and position for the text with font type*/
+#ItsMe
+{
+ height:330px; 
+ width: 230px ;
+ top: 300px;
+ left:300px;
+ position: absolute;
+}
+/*sizing and position for the text with font type*/
+#Inspiration
+{
+ font-family: "Jersey 15", sans-serif;
+  position: absolute;
+  color: azure;
+  top: 420px;
+  left: 550px;
+  font-size: 40px; 
+}
+/*sizing and position for the text with font type*/
+#FirstThought
+  {
+    font-family: "Jersey 15", sans-serif;
+    position: absolute;
+    color: white;
+    top: 260px;
+    left: 550px;
+    font-size: 20px;
+    width: 600px;
+  }
+  /*sizing and position for the text with font type*/
+   #Explanation
+  {
+    font-family: "Jersey 15", sans-serif;
+    position: absolute;
+    color: white;
+    top: 480px;
+    left: 550px;
+    font-size: 20px;
+    width: 600px;
+  }
+  /*sizing and position for the text with font type*/
+  #Explanation1
+  {
+    font-family: "Jersey 15", sans-serif;
+    position: absolute;
+    color: white;
+    top: 560px;
+    left: 550px;
+    font-size: 20px;
+    width: 600px;
+  }
+  /*sizing and position for the text with font type*/
+  #Explanation2
+  {
+    font-family: "Jersey 15", sans-serif;
+    position: absolute;
+    color: white;
+    top: 650px;
+    left: 550px;
+    font-size: 20px;
+    width: 600px;
+  }
+   
+/*Projects html work is here*/
+  /*sizing and position for the text with font type*/
+  #Heyyou4
+  {
+  font-family: "Jersey 15", sans-serif;
+  font-size: 10px;
+  position:absolute;
+  left: 10px;
+  top: 100px;
+  z-index: 2;
+  color: white;
+  }
+  /*sizing and position for the image*/
+  .Theboyclass
+ {
+  font-family: "Jersey 15", sans-serif;
+  position: absolute;
+   width: 300px;
+   height: 500px;
+   left: 300px;
+   top: 1px;
+   background-color: #000;
+   border-radius: 5%;
+   
+ }
+ /*sizing and position for the image*/
+ .cardGame
+ {
+  font-family: "Jersey 15", sans-serif;
+  position: absolute;
+   width:300px;
+   height: 250px;
+   left: 100px;
+   top: 120px;
+   background-color: #000;
+   border-radius: 5%;
+ }
+  /*sizing and position for the text with font type*/
+ #Projects1
+ {
+  font-family: "Jersey 15", sans-serif;
+  position: absolute;
+   left: 100px;
+   top: 500px;
+   width: 950px;
+   font-size: medium;
+ } 
+  /*sizing and position for the text with font type*/
+ #Projects2
+ {
+  font-family: "Jersey 15", sans-serif;
+  position: absolute;
+   left: 200px;
+   top: 1000px;
+   width: 950px;
+   font-size: medium;
+ }
+/*making the font for the text of the cards*/
+ .card-text
+ {
+  font-family: "Jersey 15", sans-serif;
+  color: #000;
+ }
+/*making the font for the text of the cards*/
+ #card-title
+ {
+  font-family: "Jersey 15", sans-serif;
+  
+ }
+/*making the font for the text of the cards*/
+ .card-body
+ {
+  background-color: #ffffff;
+ }
+/*position for the image*/
+ img 
+ {
+
+  position: absolute;
+
+  left: 300px;
+  top: 230px;
+  
+ }
+ 
+ /*Designs html work is here*/
+  /*sizing and position for the text with font type*/
+   #Heyyou2
+   {
+    font-family: "Jersey 15", sans-serif;
+    font-size: 10px;
+    position:absolute;
+    left: 10px;
+    top: 100px;
+    z-index: 2;
+    color: white;
+   }
+   /*sizing and position for the text with font type*/
+   #somework
+   {
+     font-family: "Jersey 15", sans-serif;
+     font-size: 35px;
+     position: absolute;
+     left: 580px;
+     top: 140px;
+     color: white;
+   }
+   /*sizing and position for the text with font type*/
+   #littleinfo
+   {
+     font-family: "Jersey 15", sans-serif;
+     font-size: 35px;
+     position: absolute;
+     width: 800px;
+     left: 400px;
+     top: 180px;
+     color: white;
+   }
+    /*sizing and position for the image*/
+   .Eyeclass
+   {
+     width: 500px;
+     height: 250px;
+     position: absolute;
+     left: 100px;
+     top: 250px;
+   }
+    /*sizing and position for the image*/
+   .Ghostclass
+   {
+     width: 500px;
+     height: 250px;
+     position: absolute;
+     left: 100px;
+     top: 550px;
+   }
+    /*sizing and position for the image*/
+   .Roomclass
+   {
+     width: 500px;
+     height: 250px;
+     position: absolute;
+     left: 100px;
+     top: 850px;
+   }
+    /*sizing and position for the image*/
+   .manclass
+   {
+     width: 300px;
+     height: 500px;
+     position: absolute;
+     left: 100px;
+     top: 1150px;
+   }
+    /*sizing and position for the image*/
+   .Mountains
+   {
+     width: 500px;
+     height: 250px;
+     position: absolute;
+     left: 100px;
+     top: 1700px;
+   }
+    /*sizing and position for the image*/
+   #TBC
+   {
+     font-family: "Jersey 15", sans-serif;
+     position: absolute;
+     font-size: 30px;
+     color: white;
+     left: 100px;
+     top: 2000px;              
+   }
+   /*sizing and position for the text with font type*/
+   #ClickMe
+   {
+    font-family: "Jersey 15", sans-serif;
+    position: absolute;
+    top: 740px;
+    left: 400px;
+    font-size: 40px;
+    background-color: gray;
+    color: white;
+    align-content: center;
+    border-radius: 15%;
+   
+   }
+
+   /*Contact html starts here*/
+  /*sizing and position for the text with font type*/
+   #ContactHead
+   {
+    font-family: "Jersey 15", sans-serif;
+    color: white;
+    font-size: 60px;
+    position:absolute;
+    left: 500px;
+    top: 140px;
+    z-index: 2;
+
+   }
+   /*sizing and position for the text with font type*/
+   #Ifyouwanna
+  {
+  font-family: "Jersey 15", sans-serif;
+  font-size: 35px;
+  position: absolute;
+  left: 300px;
+  top: 200px;
+  color: white;
+  }
+  /*sizing and position for the text with font type*/
+  #myemail  
+  {
+  font-family: "Jersey 15", sans-serif;
+  font-size: 35px;
+  position: absolute;
+  left: 520px;
+  top: 240px;
+  color: white;
+  }
+  /*sizing and position for the text with font type*/
+  #mycontactnumber
+  {
+  font-family: "Jersey 15", sans-serif;
+  font-size: 35px;
+  position: absolute;
+  left: 520px;
+  top: 290px;
+  color: white;
+  }
+  /*sizing and position for the text with font type*/
+  #twitterinformation
+  {
+  font-family: "Jersey 15", sans-serif;
+  font-size: 35px;
+  position: absolute;
+  left: 610px;
+  top:330px;
+  color: white;
+  }
+  /*sizing and position for the text with font type*/
+  #ItchInfo
+  {
+  font-family: "Jersey 15", sans-serif;
+  font-size: 35px;
+  position: absolute;
+  left: 660px;
+  top:370px;
+  color: white;
+  }
+  /*sizing and position for the text with font type*/
+  #Heyyou3
+  {
+ font-family: "Jersey 15", sans-serif;
+ font-size: 10px;
+ position:absolute;
+ left: 10px;
+ top: 500px;
+ z-index: 2;
+ color: white;
+  }
+
+/*come Nav Bar stuff*/
+.nav-link
+{
+  font-family: "Jersey 15", sans-serif;
+  font-size: 30px;
+}
+.navbar-brand
+{
+  font-family: "Jersey 15", sans-serif;
+  font-size: 50px;
+}

@@ -1,0 +1,118 @@
+body {
+
+    min-height: 100vw;
+    min-width: 100vw;
+    background-color: #12181f;
+    color: white;
+  }
+  
+  h1 {
+    /* This is for the header and making it big and align it properly and look nice*/
+      text-align: center;
+      font-weight: 700;
+      font-size: 50px;
+  }
+  /*making the text for the paragraph look alot better thats shown under the cards*/
+  p {
+      text-align: center;
+      font-size: 30px;
+      font-weight: bold;
+  }
+  
+  .actions {
+      display: flex;
+      justify-content: center;
+  }
+  /*this is for styling the button*/
+  .actions button {
+      padding: 10px 16px;
+      font-size: 30px;
+      border-radius: 12px;
+      background-color: #ed880d;
+      color: white;
+      z-index: 1;
+  }
+  /*this is towards making the grids for the cards layout*/
+  .grid-container {
+    display: grid;
+    justify-content: center;
+    grid-gap: 18px;
+    grid-template-columns: repeat(6, 140px);
+    /*this helps towards making the amount of cards per row*/
+    grid-template-rows: repeat(2, calc(140px / 2 * 3));
+    
+  }
+  /*creating the dimensions of the cards and adding a look of 3d to it flipping*/
+  .card {
+    height: calc(140px / 2 * 3);
+    width: 140px;
+    border-radius: 10px;
+    background-color: white;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease-in-out;
+  }
+  /*setting the front of the cards image to look like that*/
+  .front-image {
+    width: 60px;
+    height: 60px;
+    rotate: 180deg;
+  }
+  /*for creating a smooth looking transition from the back of the card to the front*/
+  .card.flipped {
+    transform: rotateY(180deg);
+    rotate: 180deg;
+  }
+  /*setting it so you dont see the back of the card but rather the front and when it flips it hides the other side*/
+  .front, .back {
+      backface-visibility: hidden;
+      position: absolute;
+      border-radius: 10px;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+  }
+  
+  .card .front {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /*using a site to generate the picture of the back of the card this wa sa site used and not my own design*/
+  .card .back {
+    background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='60' height='30' patternTransform='scale(4) rotate(25)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(0, 100%, 0%, 1)'/><path d='M1-6.5v13h28v-13H1zm15 15v13h28v-13H16zm-15 15v13h28v-13H1z'  stroke-width='1' stroke='none' fill='hsla(360, 100%, 50%, 1)'/><path d='M31-6.5v13h28v-13H31zm-45 15v13h28v-13h-28zm60 0v13h28v-13H46zm-15 15v13h28v-13H31z'  stroke-width='1' stroke='none' fill='hsla(54, 100%, 62%, 1)'/></pattern></defs><rect width='800%' height='800%' transform='translate(0,0)' fill='url(%23a)'/></svg>");
+    background-position: center center;
+    background-size: cover;
+    backface-visibility: hidden;
+  }
+  /*rotate the card back to how it originally was*/
+  .card .front {
+    transform: rotateY(180deg);
+  }
+.Bmusic
+{
+  text-align: center;
+  margin-top: 50px;
+}
+.container {
+  /* Ensure the container takes up the entire viewport */
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  z-index: 0;
+  align-items: center;
+  cursor: pointer; /* Change cursor to indicate clickability */
+}
+  /*
+Reference
+Title: Build Your Own Memory Card Game with HTML, CSS, and JavaScript Beginner-Friendly Tutorial
+Author: JavaScript Academy
+Date: 7th February, 2023
+Source: YouTube
+Availability/URL: https://www.youtube.com/watch?v=xWdkt6KSirw 
+*/
+/*other reference to the back card design
+//site: https://pattern.monster 
+*/

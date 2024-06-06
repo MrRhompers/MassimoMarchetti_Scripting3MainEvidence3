@@ -1,0 +1,84 @@
+/*me having this max-width:1000px will size it to that point onces its the minimum of that px amount*/
+@media screen and (max-width: 1000px)  
+{
+  /*This is for shaping not only the images but the text that would 
+  show on this page szing it for phone users*/
+  /*sizing and making the text wrap with the site*/
+   #ContactHead
+   {
+    font-family: "Jersey 15", sans-serif;
+    color: white;
+    font-size: 60px;
+    position:absolute;
+    left: 50px;
+    top: 380px;
+    z-index: 2;
+
+   }
+   /*sizing and making the text wrap with the site*/
+   #Ifyouwanna
+    {
+    font-family: "Jersey 15", sans-serif;
+     font-size: 35px;
+     position: absolute;
+    left: 10px;
+    top: 460px;
+    width: 100%;
+    color: white;
+    }
+    /*sizing and making the text wrap with the site*/
+    #myemail
+    {
+    font-family: "Jersey 15", sans-serif;
+    font-size: 35px;
+    position: absolute;
+    left: 10px;
+    top: 560px;
+    width: 100%;
+    color: white;
+    }
+    /*sizing and making the text wrap with the site*/
+    #mycontactnumber
+    {
+    font-family: "Jersey 15", sans-serif;
+    font-size: 35px;
+    position: absolute;
+    left: 10px;
+    top: 600px;
+    width: 100%;
+    color: white;
+    }
+    /*sizing and making the text wrap with the site*/
+    #twitterinformation
+    {
+    font-family: "Jersey 15", sans-serif;
+    font-size: 35px;
+    position: absolute;
+    left: 10px;
+    top: 630px;
+    width: 100%;
+    color: white;
+    }
+    /*sizing and making the text wrap with the site*/
+    #ItchInfo
+    {
+    font-family: "Jersey 15", sans-serif;
+    font-size: 35px;
+    position: absolute;
+    left: 10px;
+    top:660px;
+    width: 100%;
+    color: white;
+    }
+    /*sizing and making the text wrap with the site*/
+    #Heyyou3
+    {
+    font-family: "Jersey 15", sans-serif;
+    font-size: 10px;
+    position:absolute;
+    left: 10px;
+    top: 700px;
+    z-index: 2;
+    color: white;
+    }
+}

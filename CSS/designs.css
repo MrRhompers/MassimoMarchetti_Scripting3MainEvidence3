@@ -1,0 +1,109 @@
+/*me having this max-width:1000px will size it to that point onces its the minimum of that px amount*/
+@media screen and (max-width: 1000px)  
+{
+  /*This is for shaping not only the images but the text that would 
+  show on this page szing it for phone users*/
+  /*sizing and making the text wrap with the site*/
+   #ContactHead
+   {
+    font-family: "Jersey 15", sans-serif;
+    color: white;
+    font-size: 60px;
+    position:absolute;
+    left: 120px;
+    top: 400px;
+    z-index: 2;
+   }
+   /*sizing and making the text wrap with the site*/
+   #somework
+    {
+    font-family: "Jersey 15", sans-serif;
+    font-size: 35px;
+    position: absolute;
+    left: 120px;
+    top: 400px;
+    color: white;
+    }
+    /*sizing and making the text wrap with the site*/
+    #littleinfo
+    {
+    font-family: "Jersey 15", sans-serif;
+    font-size: 35px;
+    position: absolute;
+    width: 100%;
+    left: 10px;
+    top: 430px;
+    color: white;
+    }
+    /*making the image size to the side of the screen and placement changes*/
+    .Eyeclass
+    {
+    width: 350px;
+    height: 200px;
+    position: absolute;
+    left: 10px;
+    top: 590px;
+
+    }
+     /*making the image size to the side of the screen and placement changes*/
+    .Ghostclass
+    {
+    width: 350px;
+    height: 200px;
+    position: absolute;
+    left: 10px;
+    top: 830px;
+    }
+     /*making the image size to the side of the screen and placement changes*/
+    .Roomclass
+    {
+    width: 350px;
+    height: 200px;
+    position: absolute;
+    left: 10px;
+    top: 1100px;
+    }
+     /*making the image size to the side of the screen and placement changes*/
+    .manclass
+    {
+    width: 300px;
+    height: 500px;
+    position: absolute;
+    left: 10px;
+    top: 1350px;
+    }
+     /*making the image size to the side of the screen and placement changes*/
+    .Mountains
+    {
+    width: 450px;
+    height: 300px;
+    position: absolute;
+    left: 10px;
+    top: 1900px;
+    }
+    /*text that will size and wrap*/
+    #TBC
+    {
+    font-family: "Jersey 15", sans-serif;
+    position: absolute;
+    font-size: 30px;
+    color: white;
+    left: 10px;
+    width: 100%;
+    top: 2300px;              
+    }
+    /*making the secret button hover over the ghost class again*/
+    #ClickMe
+    {
+    font-family: "Jersey 15", sans-serif;
+    position: absolute;
+    top: 800px;
+    left: 60px;
+    font-size: 40px;
+    background-color: gray;
+    color: white;
+    align-content: center;
+    border-radius: 15%;
+    }
+
+}

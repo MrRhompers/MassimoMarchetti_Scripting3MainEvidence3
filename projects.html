@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--this goes towards the bootstrap nav bar that I have-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!--the style goes towards the creation and setup of my website while the other css is for making it responsive I 
+    might have been not as quick to do but I perferred the setup alittle but as it is then easier to access the different
+    setups as well as making a neat space for each website having their own responsive way-->
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/projects.css">
+
+    <title>Projects</title>
+    <!--Adding in my own favicon for the website-->
+    <link rel="icon" href="Images/favicon.ico" type="image/x-icon">
+       <!-- these goes towards the specific font that I used-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+15&display=swap" rel="stylesheet">
+</head>
+<!--adding a background colour that works with the particle system added in to not make it feel out of place-->
+<body style="background-color: rgb(0, 0, 0);">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark border-bottom border-body" data-bs-theme="dark">
+        <div class="container-fluid">
+          <!--Making it collapseable so when it changes screen sizes then it will make the navbar fit in a different way-->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+           <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+             <!--adding in the  navbars main to go to the index site(also the index site being the home page)-->
+            <a class="navbar-brand" href="index.html">Eklipze Gaming</a>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                 <!--Will go to the about page-->
+                <a class="nav-link" href="About.html">About Me</a>
+              </li>
+              <li class="nav-item">
+                <!--Will go to the projects page-->
+                <a class="nav-link" href="projects.html">Projects</a>
+              </li>
+              <li class="nav-item">
+                <!--Will go to the designs page-->
+                <a class="nav-link" href="designs.html">Concept Art/Designs</a>
+              </li>
+              <li class="nav-item">
+                <!--Will go to the contact page-->
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+       
+          </div>
+        </div>
+      </nav>
+      <!--This part is where I add in my projects to be shown-->
+    
+  <!--THis is just alittle random message which can be seen which just tells you to add more particles to the screen but It can crash the site-->
+  <div id="Heyyou4"><h5>press it more while you look!</h5></div>
+       <!--These 2 codes go towards the particle system set up-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script src="JS/script.js"></script>
+    <!-- particles.js container -->
+    <!--using a particles system which I got from the internet to help add a feeling to my site-->
+<div id="particles-js">
+
+   <!--I added in my work into the particle system so that It can be on top of the particle system as I found
+        placing it anywhere else would mess it up-->
+        <!--making this section part for the game The Boy I made and clicking the image next to the story will take you to my itch page-->
+  <section id="Projects1" class="mb-5">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+              <!--Image will go to the site itch.io but specifically my site-->
+              <a href="https://eklipzegaming.itch.io/the-boy"><img src="Images/The Boy.png" class="Theboyclass" alt="The Boy" ></a>
+                <div class="card-body">
+                  <!--and setting up the title of the card with the story connected to it that you can read-->
+                    <h5 class="card-title1" url="https://eklipzegaming.itch.io/the-boy" ><u>The Boy</u></h5>
+                    <p class="card-text"> The boy is about a story of a little boy who wakes up in a strange place and dosent know how he got there or why he is there but starts exploring and finding gruesome scenes and a gruesome monster that chases after him as it craves vengance from its past like. Will you be able to help the boy escape from this demon? Why not try and find out? It is a short demo of what could be. Tap on the photo to go to the page for download.</p>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    </section>
+    <!--this section is for the main evidence 2 that we created for Scripting in which you can go and actually play couldnt make it properly responsive -->
+    <section id="Project2" class="mb-5">
+    <div class="row">
+      <div class="col-md-4">
+          <div class="card">
+            <!--Adding in a cover image for people to see incase they want to see what the game looks like-->
+            <a href="Cards.html"><img src="Images/CardGame.png" class="cardGame" alt="Matching Cards"></a>
+              <div class="card-body">
+                <!--adding in a description with the name of my game that you can see-->
+                  <h5 class="card-title" href="Cards.html"><u>Matching Cards</u></h5>
+                  <p class="card-text"> This was a little game that was made with html and such for a project if you want a calming matching card game here you go!!</p>
+              </div>
+          </div>
+      </div>
+      
+  </div>
+</section>
+</div>
+ <!--this was to help with making it that when i press a mouse button it makes a noise-->
+ <div class="container" onclick="playClickSound()"></div>
+ <audio id="clickSound" src="Assets/Audio/mouse-click-153941.mp3"></audio>
+
+<!-- scripts for the particle system to work -->
+<script src="particles.js"></script>
+<script src="JS/app.js"></script>
+
+</body>
+</html>

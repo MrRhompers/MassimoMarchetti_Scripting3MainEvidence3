@@ -1,0 +1,48 @@
+reference lsit for the card game
+Assets used on the front of the cards is my own designs aka the animals.
+The back images of the cards come from a site name:
+https://pattern.monster/  A site that helps with making patterns for the back of the cards.
+Tutorial used
+Title: Build your own Memory Card Game with HTML, CSS, and JavaScript Beginner Friendly Tutorial
+Author: JavaScript Academy
+Date: 7th February 2023
+Source: Youtube
+Availability: https://www.youtube.com/watch?v=xWdkt6KSirw 
+Audio
+Title: Interface
+Author: UNIVERSFIELD
+Date: October 31, 2022
+Source: Pixabay
+Availability: https://pixabay.com/sound-effects/interface-124464/ 
+Title: Wandering
+Author: Pixabay
+Date: February 17, 2023
+Source: Pixabay
+Availability: https://pixabay.com/sound-effects/wandering-6394/ 
+Title: Mouth Bass
+Author: Pixabay
+Date:  September 5, 2022
+Source: Pixabay
+Availability: https://pixabay.com/sound-effects/mouth-bass-102317/ 
+
+sound used for mouse click
+Title:Mouse click
+Author:SoundReality
+Date: June 16, 2023
+Source:Pixabay
+Availability: https://pixabay.com/sound-effects/mouse-click-153941/
+
+Reference to the Particle system
+Title: particles.js
+Author: Vincent Garreau
+Date: May 10, 2015
+Source: GitHub/Vincent Garreau particles site
+Availability: http://vincentgarreau.com/particles.js
+GitHubPage: https://github.com/VincentGarreau/particles.js
+
+Reference to front
+Title: Google Font Jersey 15
+Author: Google
+Date: n.d 
+Source: Google fonts
+Availability: https://fonts.google.com/specimen/Jersey+15?query=Jersey+15

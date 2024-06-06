@@ -1,0 +1,1272 @@
+/* this is to make it that it will have a smoothness going into the next cycle*/
+@keyframes windowshine
+{
+    0%{background-color: black ;}
+    50%{background-color: yellow;}
+    100%{background-color: black }
+}
+/* this is for the windows lighting to move from black to yellow*/
+@keyframes windowmove
+{
+    from{background-color: black;}
+    to{background-color: yellow;}
+}
+/* This is for the animation of the clouds movement in the background */
+@keyframes cloudsmove
+{
+    0%{ left: 900px}
+    50%{left: 300px}
+    100%{left: 900px}
+    
+    
+}
+/* the moving animation for the cart on the cable*/
+@keyframes movingcart
+{
+    0%{  top: 420px; left: 470px;}
+    50%{ top: 320px; left: 860px;}
+
+    
+
+}
+/*to give a feeling of the lights not working well constanly flickering*/
+@keyframes brokenlight
+{
+    0%{ background-color: yellow;}
+    20%{background-color: black;}
+    40%{background-color: yellow;}
+    60%{background-color: yellow;}
+    80%{background-color: black;}
+    100%{background-color: yellow;}
+}
+/*just because its a dancing sitting and people have parties*/
+@keyframes rave 
+{
+    0%{background-color: red;}
+    25%{background-color: green;}
+    50%{background-color: blue}
+    75%{background-color: purple;}
+    100%{background-color: red ;}
+}
+/*start of the sky background*/
+#Sky
+{
+    width: 1200px;
+    height: 770px;
+    background-color: rgb(70, 63, 71);
+    position: absolute;
+    z-index: -3;
+    left: 100px;
+    top: 10px;
+}
+/*end of the sky*/
+/*the first part being the top of the building*/
+#closeBuilding
+{
+    width:  450px;
+    height: 680px;
+    background-color: black;
+    border-style: solid;
+    position: absolute;
+    border-width: 1px;
+    z-index: 1;
+    left: 100px;
+    top: 50px;
+
+
+}
+/* this is the top block of the building closer to the left*/
+#topclosebuidling
+{
+    Width: 100px;
+    height: 50px;
+    background-color: black;
+    border-style: solid;
+    position: absolute;
+    border-width: 1px;
+    z-index: 1;
+    left: 120px;
+    top: 12px;
+    animation-name: sky;
+    animation-duration: 2;
+}
+/* the atenna ontop of the building on the left*/
+#antennaclose
+{
+    width: 4px;
+    height: 40px;
+    background-color: black;
+    border-style: solid;
+    position: absolute;
+    border-width: 1px;
+    z-index: 1;
+    left: 500px;
+    top: 10px;
+}
+/* this is the start to the close buildings details and when i put 1st floor top all the windows have been made in
+ the sequence of top to bottom*/
+/* Start of 1st floor with windows, ledges and animations*/
+#ledge1top
+{
+    width: 450px;
+    height: 2px;
+    background-color: grey;
+    position: absolute;
+    border-style: solid;
+    border-color: grey;
+    z-index: 2;
+    left: 100px;
+    top: 60px;
+}
+#topfloorleftwindow
+{
+    width: 60px;
+    height: 40px;
+    background-color: rgb(123, 0, 0);
+    border-color: white;
+    border-style: solid;
+    position: absolute;
+    z-index: 2;
+    left: 120px;
+    top: 70px;
+}
+#topfloormiddleleftwindow
+{
+    width: 60px;
+    height: 40px;
+    background-color: black;
+    border-color: white;
+    border-style: solid;
+    position: absolute;
+    z-index: 2;
+    left: 240px;
+    top: 70px;
+    animation:  windowshine;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+#topfloormiddlerightwindow
+{
+    width: 60px;
+    height: 40px;
+    background-color: yellow;
+    border-color: white;
+    border-style: solid;
+    position: absolute;
+    z-index: 2;
+    left: 360px;
+    top: 70px;
+}
+#topfloorrightwindow
+{
+    width: 60px;
+    height: 40px;
+    background-color: black;
+    border-color: white;
+    border-style: solid;
+    position: absolute;
+    z-index: 2;
+    left: 480px;
+    top: 70px;
+}
+#ledge1bottom
+{
+    width: 450px;
+    height: 2px;
+    background-color: grey;
+    position: absolute;
+    border-style: solid;
+    border-color: grey;
+    z-index: 2;
+    left: 100px;
+    top: 130px;
+}
+/* This is the end to the 1st floor indicated by ledge bottom aswell*/
+/* Start of 2nd floor with windows, ledges and animations*/
+#ledge2top
+{
+    width: 450px;
+    height: 2px;
+    background-color: grey;
+    position: absolute;
+    border-style: solid;
+    border-color: grey;
+    z-index: 2;
+    left: 100px;
+    top: 120px;
+}
+#top2ndfloorleftwindow
+{
+    width: 60px;
+    height: 40px;
+    background-color: black;
+    border-color: white;
+    border-style: solid;
+    position: absolute;
+    z-index: 2;
+    left: 120px;
+    top: 140px;
+    animation:  brokenlight;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+
+}
+#top2ndfloormiddleleftwindow
+{
+    width: 60px;
+    height: 40px;
+    background-color: yellow;
+    border-color: white;
+    border-style: solid;
+    position: absolute;
+    z-index: 2;
+    left: 240px;
+    top: 140px;
+}
+#top2ndfloormiddlerightwindow
+{
+    width: 60px;
+    height: 40px;
+    background-color: black;
+    border-color: white;
+    border-style: solid;
+    position: absolute;
+    z-index: 2;
+    left: 360px;
+    top: 140px;
+}
+#top2ndfloorrightwindow
+{
+    width: 60px;
+    height: 40px;
+    background-color: black;
+    border-color: white;
+    border-style: solid;
+    position: absolute;
+    z-index: 2;
+    left: 480px;
+    top: 140px;
+    
+}
+#ledge2bottom
+{
+    width: 450px;
+    height: 2px;
+    background-color: grey;
+    position: absolute;
+    border-style: solid;
+    border-color: grey;
+    z-index: 2;
+    left: 100px;
+    top: 190px;
+}
+/* This is the end to the 2nd floor indicated by ledge bottom aswell*/
+/* start of 3rd floor with windows, ledges and animations*/
+#ledge3top
+{
+    width: 450px;
+    height: 2px;
+    background-color: grey;
+    position: absolute;
+    border-style: solid;
+    border-color: grey;
+    z-index: 2;
+    left: 100px;
+    top: 200px;   
+}
+#top3rdfloorleftwindow
+{
+    width: 60px;
+    height: 40px;
+    background-color: white;
+    border-color: white;
+    border-style: solid;
+    position: absolute;
+    z-index: 2;
+    left: 120px;
+    top: 210px;
+    animation:  rave;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+#top3rdfloormiddleleftwindow
+{
+    width: 60px;
+    height: 40px;
+    background-color: white;
+    border-color: white;
+    border-style: solid;
+    position: absolute;
+    z-index: 2;
+    left: 240px;
+    top: 210px;
+    animation:  brokenlight;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+#top3rdfloormiddlerightwindow
+{
+    width: 60px;
+    height: 40px;
+    background-color: white;
+    border-color: white;
+    border-style: solid;
+    position: absolute;
+    z-index: 2;
+    left: 360px;
+    top: 210px;
+    animation:  windowshine;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+#top3rdfloorrightwindow
+{
+    width: 60px;
+    height: 40px;
+    background-color: yellow;
+    border-color: white;
+    border-style: solid;
+    position: absolute;
+    z-index: 2;
+    left: 480px;
+    top: 210px;
+}
+#ledge3bottom
+{
+    width: 450px;
+    height: 2px;
+    background-color: grey;
+    position: absolute;
+    border-style: solid;
+    border-color: grey;
+    z-index: 2;
+    left: 100px;
+    top: 260px;   
+}
+/* This is the end to the 3rd floor indicated by ledge bottom aswell*/
+/* start of 4th floor with windows, ledges and animations*/
+#ledge4top
+{
+    width: 450px;
+    height: 2px;
+    background-color: grey;
+    position: absolute;
+    border-style: solid;
+    border-color: grey;
+    z-index: 2;
+    left: 100px;
+    top: 270px;   
+}
+#top4thfloorleftwindow
+{
+    width: 60px;
+    height: 40px;
+    background-color: white;
+    border-color: white;
+    border-style: solid;
+    position: absolute;
+    z-index: 2;
+    left: 120px;
+    top: 280px;
+    animation:  windowshine;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+#top4thfloormiddleleftwindow
+{
+    width: 60px;
+    height: 40px;
+    background-color: black;
+    border-color: white;
+    border-style: solid;
+    position: absolute;
+    z-index: 2;
+    left: 240px;
+    top: 280px;
+}
+#top4thfloormiddlerightwindow
+{
+    width: 60px;
+    height: 40px;
+    background-color: black;
+    border-color: white;
+    border-style: solid;
+    position: absolute;
+    z-index: 2;
+    left: 360px;
+    top: 280px;
+    animation:  brokenlight;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+#top4thfloorrightwindow
+{
+    width: 60px;
+    height: 40px;
+    background-color: black;
+    border-color: white;
+    border-style: solid;
+    position: absolute;
+    z-index: 2;
+    left: 480px;
+    top: 280px;
+}
+#ledge4bottom
+{
+    width: 450px;
+    height: 2px;
+    background-color: grey;
+    position: absolute;
+    border-style: solid;
+    border-color: grey;
+    z-index: 2;
+    left: 100px;
+    top: 330px;   
+}
+/* This is the end to the 4th floor indicated by ledge bottom aswell*/
+/* start of 5th floor with windows, ledges and animations*/
+#ledge5top
+{
+    width: 450px;
+    height: 2px;
+    background-color: grey;
+    position: absolute;
+    border-style: solid;
+    border-color: grey;
+    z-index: 2;
+    left: 100px;
+    top: 340px;  
+}
+#top5thfloorleftwindow
+{
+    width: 60px;
+    height: 40px;
+    background-color: black ;
+    border-color: white;
+    border-style: solid;
+    position: absolute;
+    z-index: 2;
+    left: 120px;
+    top: 350px;
+}
+#top5thfloormiddleleftwindow
+{
+    width: 60px;
+    height: 40px;
+    background-color: black;
+    border-color: white;
+    border-style: solid;
+    position: absolute;
+    z-index: 2;
+    left: 240px;
+    top: 350px;
+}
+#top5thfloormiddlerightwindow
+{
+    width: 60px;
+    height: 40px;
+    background-color: black;
+    border-color: white;
+    border-style: solid;
+    position: absolute;
+    z-index: 2;
+    left: 360px;
+    top: 350px;
+}
+#top5thfloorrightwindow
+{
+    width: 60px;
+    height: 40px;
+    background-color: black;
+    border-color: white;
+    border-style: solid;
+    position: absolute;
+    z-index: 2;
+    left: 480px;
+    top: 350px;
+    animation:  brokenlight;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+}
+#ledge5bottom
+{
+    width: 450px;
+    height: 2px;
+    background-color: grey;
+    position: absolute;
+    border-style: solid;
+    border-color: grey;
+    z-index: 2;
+    left: 100px;
+    top: 400px;
+}
+/* This is the end to the 5th floor indicated by ledge bottom aswell*/
+/* start of 6th floor with windows, ledges and animations*/
+#ledge6top
+{
+    width: 450px;
+    height: 2px;
+    background-color: grey;
+    position: absolute;
+    border-style: solid;
+    border-color: grey;
+    z-index: 2;
+    left: 100px;
+    top: 410px;
+}
+#top6thfloorleftwindow
+{
+    width: 60px;
+    height: 40px;
+    background-color: yellow;
+    border-color: white;
+    border-style: solid;
+    position: absolute;
+    z-index: 2;
+    left: 120px;
+    top: 420px;
+}
+#top6thfloormiddleleftwindow
+{
+    width: 60px;
+    height: 40px;
+    background-color: black;
+    border-color: white;
+    border-style: solid;
+    position: absolute;
+    z-index: 2;
+    left: 240px;
+    top: 420px;
+}
+#top6thfloormiddlerightwindow
+{
+    width: 60px;
+    height: 40px;
+    background-color: yellow;
+    border-color: white;
+    border-style: solid;
+    position: absolute;
+    z-index: 2;
+    left: 360px;
+    top: 420px;
+}
+#top6thfloorrightwindow
+{
+    width: 60px;
+    height: 40px;
+    background-color: yellow;
+    border-color: white;
+    border-style: solid;
+    position: absolute;
+    z-index: 2;
+    left: 480px;
+    top: 420px;
+}
+#ledge6bottom
+{
+    width: 450px;
+    height: 2px;
+    background-color: grey;
+    position: absolute;
+    border-style: solid;
+    border-color: grey;
+    z-index: 2;
+    left: 100px;
+    top: 470px; 
+}
+/* This is the end to the 6th floor indicated by ledge bottom aswell*/
+/* start of 7th floor with windows, ledges and animations*/
+#ledge7top
+{
+    width: 450px;
+    height: 2px;
+    background-color: grey;
+    position: absolute;
+    border-style: solid;
+    border-color: grey;
+    z-index: 2;
+    left: 100px;
+    top: 480px; 
+}
+#top7thfloorleftwindow
+{
+    width: 60px;
+    height: 40px;
+    background-color: black;
+    border-color: white;
+    border-style: solid;
+    position: absolute;
+    z-index: 2;
+    left: 120px;
+    top: 490px;
+    animation:  windowmove;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+#top7thfloormiddleleftwindow
+{
+    width: 60px;
+    height: 40px;
+    background-color: black;
+    border-color: white;
+    border-style: solid;
+    position: absolute;
+    z-index: 2;
+    left: 240px;
+    top: 490px;
+    animation:  windowmove;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+}
+#top7thfloormiddlerightwindow
+{
+    width: 60px;
+    height: 40px;
+    background-color: black;
+    border-color: white;
+    border-style: solid;
+    position: absolute;
+    z-index: 2;
+    left: 360px;
+    top: 490px;
+    animation:  windowmove;
+    animation-duration: 3s;
+    animation-delay: 6s;
+    animation-iteration-count: infinite;
+}
+#top7thfloorrightwindow
+{
+    width: 60px;
+    height: 40px;
+    background-color: black;
+    border-color: white;
+    border-style: solid;
+    position: absolute;
+    z-index: 2;
+    left: 480px;
+    top: 490px;
+    animation:  windowmove;
+    animation-duration: 3s;
+    animation-delay: 9s;
+    animation-iteration-count: infinite;
+}
+#ledge7bottom
+{
+    width: 450px;
+    height: 2px;
+    background-color: grey;
+    position: absolute;
+    border-style: solid;
+    border-color: grey;
+    z-index: 2;
+    left: 100px;
+    top: 540px; 
+}
+/* This is the end to the 7th floor indicated by ledge bottom aswell*/
+/* start of 8th floor with windows, ledges and animations*/
+#ledge8top
+{
+    width: 450px;
+    height: 2px;
+    background-color: grey;
+    position: absolute;
+    border-style: solid;
+    border-color: grey;
+    z-index: 2;
+    left: 100px;
+    top: 550px; 
+}
+#top8thfloorleftwindow
+{
+    width: 60px;
+    height: 40px;
+    background-color: yellow;
+    border-color: white;
+    border-style: solid;
+    position: absolute;
+    z-index: 2;
+    left: 120px;
+    top: 560px;
+}
+#top8thfloormiddleleftwindow
+{
+    width: 60px;
+    height: 40px;
+    background-color: yellow;
+    border-color: white;
+    border-style: solid;
+    position: absolute;
+    z-index: 2;
+    left: 360px;
+    top: 560px;
+}
+#top8thfloormiddlerightwindow
+{
+    width: 60px;
+    height: 40px;
+    background-color: white;
+    border-color: white;
+    border-style: solid;
+    position: absolute;
+    z-index: 2;
+    left: 240px;
+    top: 560px;
+    animation:  windowshine;
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
+}
+#top8thfloorrightwindow
+{
+    width: 60px;
+    height: 40px;
+    background-color: yellow;
+    border-color: white;
+    border-style: solid;
+    position: absolute;
+    z-index: 2;
+    left: 480px;
+    top: 560px;
+}
+#ledge8bottom
+{
+    width: 450px;
+    height: 2px;
+    background-color: grey;
+    position: absolute;
+    border-style: solid;
+    border-color: grey;
+    z-index: 2;
+    left: 100px;
+    top: 610px; 
+}
+/* This is the end to the 8th floor indicated by ledge bottom aswell*/
+/* start of 9th floor with windows, ledges and animations*/
+#ledge9top
+{
+    width: 450px;
+    height: 2px;
+    background-color: grey;
+    position: absolute;
+    border-style: solid;
+    border-color: grey;
+    z-index: 2;
+    left: 100px;
+    top: 620px; 
+}
+#top9thfloorleftwindow
+{
+    width: 60px;
+    height: 40px;
+    background-color: white;
+    border-color: white;
+    border-style: solid;
+    position: absolute;
+    z-index: 2;
+    left: 120px;
+    top: 630px;
+    animation:  rave;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+#top9thfloormiddleleftwindow
+{
+    width: 60px;
+    height: 40px;
+    background-color: yellow;
+    border-color: white;
+    border-style: solid;
+    position: absolute;
+    z-index: 2;
+    left: 240px;
+    top: 630px;
+}
+#top9thfloormiddlerightwindow
+{
+    width: 60px;
+    height: 40px;
+    background-color: black;
+    border-color: white;
+    border-style: solid;
+    position: absolute;
+    z-index: 2;
+    left: 360px;
+    top: 630px;
+}
+#top9thfloorrightwindow
+{
+    width: 60px;
+    height: 40px;
+    background-color: white;
+    border-color: white;
+    border-style: solid;
+    position: absolute;
+    z-index: 2;
+    left: 480px;
+    top: 630px;
+    animation:  rave;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+#ledge9bottom
+{
+    width: 450px;
+    height: 2px;
+    background-color: grey;
+    position: absolute;
+    border-style: solid;
+    border-color: grey;
+    z-index: 2;
+    left: 100px;
+    top: 680px; 
+}
+/* This is the end to the 9th floor indicated by ledge bottom aswell*/
+/* start of 10th floor with windows, ledges and animations*/
+#ledge10top
+{
+    width: 450px;
+    height: 2px;
+    background-color: grey;
+    position: absolute;
+    border-style: solid;
+    border-color: grey;
+    z-index: 2;
+    left: 100px;
+    top: 690px;
+}
+#top10thfloorleftwindow
+{
+    width: 60px;
+    height: 40px;
+    background-color: white;
+    border-color: white;
+    border-style: solid;
+    position: absolute;
+    z-index: 2;
+    left: 120px;
+    top: 700px;
+    animation:  rave;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+#top10thfloormiddleleftwindow
+{
+    width: 60px;
+    height: 40px;
+    background-color: black;
+    border-color: white;
+    border-style: solid;
+    position: absolute;
+    z-index: 2;
+    left: 240px;
+    top: 700px;
+}
+#top10thfloormiddlerightwindow
+{
+    width: 60px;
+    height: 40px;
+    background-color: black;
+    border-color: white;
+    border-style: solid;
+    position: absolute;
+    z-index: 2;
+    left: 360px;
+    top: 700px;
+}
+#top10thfloorrightwindow
+{
+    width: 60px;
+    height: 40px;
+    background-color: black;
+    border-color: white;
+    border-style: solid;
+    position: absolute;
+    z-index: 2;
+    left: 480px;
+    top: 700px;
+    animation:  brokenlight;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+#ledge10bottom
+{
+    width: 450px;
+    height: 2px;
+    background-color: grey;
+    position: absolute;
+    border-style: solid;
+    border-color: grey;
+    z-index: 2;
+    left: 100px;
+    top: 750px;
+}
+#ledge11top
+{
+    width: 450px;
+    height: 2px;
+    background-color: grey;
+    position: absolute;
+    border-style: solid;
+    border-color: grey;
+    z-index: 2;
+    left: 100px;
+    top: 760px;
+}
+/* This is the end to the 9th floor indicated by ledge bottom aswell addings one last edge to it */
+/* this is not only the bottom half of the building on the left but is also the building next to it on the bottom of screen*/
+#longbuilding
+{
+    width: 1100px;
+    height: 290px;
+    background-color: black;
+    position: absolute;
+    z-index: 1;
+    left: 100px;
+    top: 490px;
+}
+/* this is the top of the bottom black building to add as if it has a roof entrance*/
+#topoflongbuilding
+{
+    width: 90px;
+    height: 110px;
+    background-color: black(233, 0, 0);
+    position: absolute;
+    z-index: 2;
+    left: 900px;
+    top: 430px;
+}
+/* this is for the building with the longer windows*/
+#backgreybuilding
+{
+    Width: 450px;
+    height: 600px;
+    background-color:rgb(24, 19, 75);
+    position: absolute;
+    z-index: 0;
+    left: 850px;
+    top: 180px;
+}
+/* this is the start of the windows that will be added to the building*/
+#window1
+{
+    width: 430px;
+    height: 40px;
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    position: absolute;
+    z-index: 2;
+    left: 860px;
+    top: 190px;
+}
+#window2
+{
+    width: 430px;
+    height: 40px;
+    background-color: grey;
+    border-style: solid;
+    border-color: black;
+    position: absolute;
+    z-index: 2;
+    left: 860px;
+    top: 240px;
+}
+#window3
+{
+    width: 430px;
+    height: 40px;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    position: absolute;
+    z-index: 2;
+    left: 860px;
+    top: 290px;
+}
+#window4
+{
+    width: 430px;
+    height: 40px;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    position: absolute;
+    z-index: 1;
+    left: 860px;
+    top: 340px;
+}
+#window5
+{
+    width: 430px;
+    height: 40px;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    position: absolute;
+    z-index: 1;
+    left: 860px;
+    top: 390px;
+}
+#window6
+{
+    width: 430px;
+    height: 40px;
+    background-color: grey;
+    border-style: solid;
+    border-color: black;
+    position: absolute;
+    z-index: 1;
+    left: 860px;
+    top: 440px;
+}
+#window7
+{
+    width: 430px;
+    height: 40px;
+    background-color: grey;
+    border-style: solid;
+    border-color: black;
+    position: absolute;
+    z-index: 0;
+    left: 860px;
+    top: 490px;
+}
+#window8
+{
+    width: 430px;
+    height: 40px;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    position: absolute;
+    z-index: 0;
+    left: 860px;
+    top: 540px;
+}
+#window9
+{
+    width: 430px;
+    height: 40px;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    position: absolute;
+    z-index: 0;
+    left: 860px;
+    top: 590px;
+}
+#window10
+{
+    width: 430px;
+    height: 40px;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    position: absolute;
+    z-index: 0;
+    left: 860px;
+    top: 640px;
+}
+/* end of the building with all its windows on it*/
+/* this is for the chimney ontop of the dark blue building labelled as grey building */
+#chimneyforgreybuilding
+{
+    Width: 50px;
+    height: 30px;
+    background-color: rgb(24, 19, 75);
+    position: absolute;
+    z-index: 1;
+    left: 970px;
+    top: 150px;
+}
+/*the end of the grey building*/
+/*this is the start of the buildings you see in the background*/
+/*this is the start for the middle silloutte background to appease the eyes*/
+#silloutteback1
+{
+    Width: 100px;
+    height: 250px;
+    background-color:rgb(104, 20, 104);
+    position: absolute;
+    z-index: -2;
+    left: 750px;
+    top: 240px;
+}
+#silloutteback2
+{
+    Width: 300px;
+    height: 100px;
+    background-color: rgb(104, 20, 104);
+    position: absolute;
+    z-index: -2;
+    left: 450px;
+    top: 400px;
+}
+/* End of the middle background building design*/
+/* this is the top right black building thats in the background*/
+#silloutteback3
+{
+    Width: 300px;
+    height: 170px;
+    background-color: black;
+    position: absolute;
+    z-index: 0;
+    left: 1000px;
+    top: 10px;
+}
+/* end of the background*/
+/* this is for the big cloud infront of the building with the*/
+#cloud1
+{
+    width: 350px;
+    height: 100px;
+    background-color: grey;
+    z-index: 5;
+
+    top: 100px;
+    left: 400px;
+    position: absolute;
+    border-radius: 45%;
+    
+}
+#cloud2
+{
+    width: 200px;
+    height: 50px;
+    background-color: grey;
+    z-index: 5;
+    top: 140px;
+    left: 370px;
+    position: absolute;
+    border-radius: 45%;
+    
+}
+#cloud3
+{
+    width: 200px;
+    height: 40px;
+    background-color: grey;
+    z-index: 5;
+    top: 150px;
+    left: 700px;
+    position: absolute;
+    border-radius: 45%;
+}
+#cloud4
+{
+    width: 120px;
+    height: 90px;
+    background-color: grey;
+    z-index: 5;
+    top: 110px;
+    left: 680px;
+    position: absolute;
+    border-radius: 45%;
+}
+#cloud5
+{
+    width: 140px;
+    height: 70px;
+    background-color: grey;
+    z-index: 6;
+    top: 130px;
+    left: 740px;
+    position: absolute;
+    border-radius: 45%;
+}
+#cloud6
+{
+    width: 300px;
+    height: 40px;
+    background-color: grey;
+    z-index: 5;
+    top: 120px;
+    left:550px;
+    position: absolute;
+    border-radius: 45%;
+}
+#cloud7
+{
+    width: 350px;
+    height: 30px;
+    background-color: grey;
+    z-index: 5;
+    top: 180px;
+    left: 450px;
+    position: absolute;
+    border-radius: 45%;
+}
+/* with is the end to the cloud thats infront of the building*/
+/* this is the start of the clouds that are moving in the background*/
+#cloud8
+{
+    width: 350px;
+    height: 30px;
+    background-color: grey;
+    z-index: 0;
+    top: 40px;
+    left: 900px;
+    position: absolute;
+    border-radius: 45%;
+    animation:  cloudsmove;
+    animation-duration: 18s;
+    animation-iteration-count: infinite;
+}
+#cloud9
+{
+    width: 350px;
+    height: 30px;
+    background-color: grey;
+    z-index: 0;
+    top: 40px;
+    left: 720px;
+    position: absolute;
+    border-radius: 45%;
+    animation:  cloudsmove;
+    animation-duration: 22s;
+    animation-iteration-count: infinite;
+}
+#cloud10
+{
+    width: 350px;
+    height: 30px;
+    background-color: grey;
+    z-index: 0;
+    top: 50px;
+    left: 750px;
+    position: absolute;
+    border-radius: 45%;
+    animation:  cloudsmove;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+/* the end of the moving clouds*/
+/* the blue cable wire that the green cart will be moving on to show abit more reason on why this cart is moving*/
+#cablewire
+{
+    width: 360px;
+    height: 2px;
+    rotate: -15deg;
+    position: absolute;
+    z-index: -2;
+    background-color: blue ;
+    top: 380px;
+    left: 495px;
+}
+/* end of the cable wire as not must is needed*/
+/*this is the cable cart that will move on the cables wire*/
+#cablecart
+{
+    Width: 80px;
+    height: 40px;
+    background-color: green;
+    z-index: -1;
+    position: absolute;
+    top: 420px;
+    left: 470px;
+    animation:  movingcart;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+/*end of the cable cart*/
